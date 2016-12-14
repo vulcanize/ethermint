@@ -6,8 +6,7 @@ RUN apt-get update && \
   apt-get install -y --no-install-recommends \
   jq bsdmainutils vim-common psmisc 
 
-# Setup tendermint repo with vendored dependencies
-# but without code - docker caching prevents reinstall on code change!
+# Setup ethermint repo with vendored dependencies
 ENV REPO $GOPATH/src/github.com/tendermint/ethermint
 WORKDIR $REPO
 #ADD glide.yaml glide.yaml
@@ -22,3 +21,4 @@ RUN go install ./cmd/ethermint
 
 EXPOSE 46656
 EXPOSE 46657
+EXPOSE 8545
