@@ -276,6 +276,7 @@ func newCliApp(version, usage string) *cli.App {
 		utils.GpobaseStepDownFlag,
 		utils.GpobaseStepUpFlag,
 		utils.GpobaseCorrectionFactorFlag,
+		utils.BlockCount,
 		cli.StringFlag{
 			Name:  "node_laddr",
 			Value: "tcp://0.0.0.0:46656",

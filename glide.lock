@@ -1,5 +1,5 @@
-hash: c5139b79be22ebf1bd63a11c2a2af52587dbb0523e87ceee94284ab5ebb7ad59
-updated: 2017-03-08T17:24:59.768184579-05:00
+hash: 41270696ad80622157fd7d6b5bc431ffcb7f07534fea7e0e050f91e74f8434e2
+updated: 2017-03-31T02:01:26.992828869+03:00
 imports:
 - name: github.com/aristanetworks/goarista
   version: b0e49c238c066506cefd63181b73b282ccd84708
@@ -16,7 +16,7 @@ imports:
 - name: github.com/ethereum/ethash
   version: 214d4c008e101d4f7b18318389fb8c2e00323f24
 - name: github.com/ethereum/go-ethereum
-  version: 627508bf4df160a98277d27c23690e2e7e08c261
+  version: de91d06ba207e9013335cb7646249b1c90d6a0ef
   repo: https://github.com/vulcanize/go-ethereum.git
   subpackages:
   - accounts
